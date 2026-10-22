@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrBeast</title>
+    <link rel="icon" href="itemsIcons/websiteIcon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="timer">00:00:00</header>
+    <main>
+        <div class="container">
+            <div id="mainBlock">
+                <img id="MrBeastPhoto" src="./itemsIcons/MrBeastPhoto.jpg">
+                <div id="SpendMrBeastsMoney">Spend MrBeast's money</div>
+            </div>
+            <div id="cashAmountBlock">
+                <div id="amountOfMoney">2600000000$</div>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" src="./itemsIcons/Cookie.png">
+                <div class="itemName">Cookie</div>
+                <div class="itemPrice">1$</div>
+                <button class="buttonBuy" id="cookieButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" src="./itemsIcons/Feastables.png">
+                <div class="itemName">Feastables</div>
+                <div class="itemPrice">3$</div>
+                <button class="buttonBuy" id="feastablesButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="PizzaPhoto" src="./itemsIcons/pizza.png">
+                <div class="itemName">Pizza</div>
+                <div class="itemPrice">10$</div>
+                <button class="buttonBuy" id="pizzaButtonBuy">buy</button>
+            </div>
+             <div class="item">
+                <img class="itemPhoto" src="./itemsIcons/FunkoPop_MrBeast.png">
+                <div class="itemName">Funko Pop</div>
+                <div class="itemPrice">15$</div>
+                <button class="buttonBuy" id="funkoPopButtonBuy">buy</button>
+            </div>
+             <div class="item">
+                <img class="itemPhoto" id="JackLinksPhoto" src="./itemsIcons/JackLinks.png">
+                <div class="itemName">Jack Link's</div>
+                <div class="itemPrice">20$</div>
+                <button class="buttonBuy" id="jackLinksButtonBuy">buy</button>
+            </div>
+             <div class="item">
+                <img class="itemPhoto" id="T-ShirtPhoto" src="./itemsIcons/MrBeastStoreT-Shirt.png">
+                <div class="itemName">T-shirt from MrBeast's</div>
+                <div class="itemPrice">25$</div>
+                <button class="buttonBuy" id="T-ShirtButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="nokiaPhoto" src="./itemsIcons/nokia3310.png">
+                <div class="itemName">Nokia 3310</div>
+                <div class="itemPrice">35$</div>
+                <button class="buttonBuy" id="nokiaButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" src="./itemsIcons/robux.png">
+                <div class="itemName">4,500 Robux</div>
+                <div class="itemPrice">50$</div>
+                <button class="buttonBuy" id="robuxButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="GTA" src="./itemsIcons/GTA VI.png">
+                <div class="itemName">GTA VI</div>
+                <div class="itemPrice">80$</div>
+                <button class="buttonBuy" id="gtaButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="nikeAirForcePhoto" src="./itemsIcons/nikeAirForce.png">
+                <div class="itemName">Nike Air Force 1</div>
+                <div class="itemPrice">115$</div>
+                <button class="buttonBuy" id="nikeAirForceButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="xboxController" src="./itemsIcons/xboxGamepad.png">
+                <div class="itemName">Xbox Elite controller</div>
+                <div class="itemPrice">150$</div>
+                <button class="buttonBuy" id="xboxControllerButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" src="./itemsIcons/headphones.png">
+                <div class="itemName">Headphones</div>
+                <div class="itemPrice">230$</div>
+                <button class="buttonBuy" id="headphonesButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="Champagne" src="./itemsIcons/Champagne.png">
+                <div class="itemName">Premium Champagne</div>
+                <div class="itemPrice">400$</div>
+                <button class="buttonBuy" id="champagneButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="bicycle" src="./itemsIcons/bike.png">
+                <div class="itemName">Bicycle</div>
+                <div class="itemPrice">600$</div>
+                <button class="buttonBuy" id="bicycleButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="Zhiguli" src="./itemsIcons/2101vaz.png">
+                <div class="itemName">VAZ-2101 Zhiguli</div>
+                <div class="itemPrice">700$</div>
+                <button class="buttonBuy" id="zhiguliButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" src="./itemsIcons/korgi.png">
+                <div class="itemName">Puppy</div>
+                <div class="itemPrice">800$</div>
+                <button class="buttonBuy" id="puppyButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="balenciagaSneakers" src="./itemsIcons/10xlSneaker.png">
+                <div class="itemName">Balenciaga sneakers</div>
+                <div class="itemPrice">1000$</div>
+                <button class="buttonBuy" id="10xlSneakerButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="pc" src="./itemsIcons/Pc.png">
+                <div class="itemName">Gaming setup</div>
+                <div class="itemPrice">2000$</div>
+                <button class="buttonBuy" id="gamingSetupButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="iphone18" src="./itemsIcons/iphone 18.png">
+                <div class="itemName">iPhone 18 pro max 2TB</div>
+                <div class="itemPrice">2500$</div>
+                <button class="buttonBuy" id="iphone18ButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="cow" src="./itemsIcons/cow.png">
+                <div class="itemName">Cow</div>
+                <div class="itemPrice">3000$</div>
+                <button class="buttonBuy" id="cowButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="iphoneDuo" src="./itemsIcons/iphone Duo.png">
+                <div class="itemName">iPhone Duo 2TB</div>
+                <div class="itemPrice">3200$</div>
+                <button class="buttonBuy" id="iPhoneDuoButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="bag" src="./itemsIcons/DesignBag.png">
+                <div class="itemName">Designer bag</div>
+                <div class="itemPrice">4000$</div>
+                <button class="buttonBuy" id="designerBagButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="golfCart" src="./itemsIcons/golfCar.png">
+                <div class="itemName">Golf cart</div>
+                <div class="itemPrice">10 000$</div>
+                <button class="buttonBuy" id="golfCartButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" src="./itemsIcons/gold.png">
+                <div class="itemName">100 grams of gold</div>
+                <div class="itemPrice">12 000$</div>
+                <button class="buttonBuy" id="goldButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="jetSki" src="./itemsIcons/jet sky.png">
+                <div class="itemName">Jet ski</div>
+                <div class="itemPrice">18 000$</div>
+                <button class="buttonBuy" id="jetSkiButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="rolex" src="./itemsIcons/rolex.png">
+                <div class="itemName">Rolex</div>
+                <div class="itemPrice">20 000$</div>
+                <button class="buttonBuy" id="rolexButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="dessert" src="./itemsIcons/diamond.png">
+                <div class="itemName">Dessert with a diamond</div>
+                <div class="itemPrice">35 000$</div>
+                <button class="buttonBuy" id="dessertWithDiamondButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="ford" src="./itemsIcons/ford f-150.png">
+                <div class="itemName">Ford f-150</div>
+                <div class="itemPrice">40 000$</div>
+                <button class="buttonBuy" id="truckButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="cybertruck" src="./itemsIcons/cybertruck.png">
+                <div class="itemName">Cybertruck</div>
+                <div class="itemPrice">150 000$</div>
+                <button class="buttonBuy" id="cybertruckButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="porshe911" src="./itemsIcons/porshe911.png">
+                <div class="itemName">Porshe 911</div>
+                <div class="itemPrice">200 000$</div>
+                <button class="buttonBuy" id="porshe911ButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="island" src="./itemsIcons/island-no-bg-preview (carve.photos).png">
+                <div class="itemName">Uninhabited island</div>
+                <div class="itemPrice">250 000$</div>
+                <button class="buttonBuy" id="islandButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="flycar" src="./itemsIcons/xpeng.png">
+                <div class="itemName">Fly car</div>
+                <div class="itemPrice">350 000$</div>
+                <button class="buttonBuy" id="flycarButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="house" src="./itemsIcons/singleFamilyHouse.png">
+                <div class="itemName">Single family house</div>
+                <div class="itemPrice">400 000$</div>
+                <button class="buttonBuy" id="houseButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="jet" src="./itemsIcons/privateJet-no-bg-preview (carve.photos).png">
+                <div class="itemName">Private jet</div>
+                <div class="itemPrice">$4,5m</div>
+                <button class="buttonBuy" id="privateJetButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="art" src="./itemsIcons/artObject.png">
+                <div class="itemName">Art-object</div>
+                <div class="itemPrice">$6,2m</div>
+                <button class="buttonBuy" id="artButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="club" src="./itemsIcons/yorkCity.png">
+                <div class="itemName">Football club</div>
+                <div class="itemPrice">$10m</div>
+                <button class="buttonBuy" id="footballClubButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="ronaldo" src="./itemsIcons/cristianoRonaldo.png">
+                <div class="itemName">Sign Cristiano Ronaldo</div>
+                <div class="itemPrice">$11m</div>
+                <button class="buttonBuy" id="ronaldoButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="helicopter" src="./itemsIcons/helicopter.png">
+                <div class="itemName">Helicopter</div>
+                <div class="itemPrice">$15m</div>
+                <button class="buttonBuy" id="helicopterButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="yacht" src="./itemsIcons/superYacht.png">
+                <div class="itemName">Superyacht</div>
+                <div class="itemPrice">$20m</div>
+                <button class="buttonBuy" id="yachtButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="penthouse" src="./itemsIcons/pentHouse.jpg">
+                <div class="itemName">Penthouse</div>
+                <div class="itemPrice">$30m</div>
+                <button class="buttonBuy" id="penthouseButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="spacex" src="./itemsIcons/spaceX.png">
+                <div class="itemName">SpaceX Starship</div>
+                <div class="itemPrice">$100m</div>
+                <button class="buttonBuy" id="spacexButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" src="./itemsIcons/titanic.png">
+                <div class="itemName">Make a movie</div>
+                <div class="itemPrice">$200m</div>
+                <button class="buttonBuy" id="makeMovieButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="boeing" src="./itemsIcons/boeing.png">
+                <div class="itemName">Boeing 777X/BBJ</div>
+                <div class="itemPrice">$440m</div>
+                <button class="buttonBuy" id="boeingButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="masterpiece" src="./itemsIcons/picture.jpg">
+                <div class="itemName">masterpiece</div>
+                <div class="itemPrice">$450m</div>
+                <button class="buttonBuy" id="masterpieceButtonBuy">buy</button>
+            </div>
+            <div class="item">
+                <img class="itemPhoto" id="liner" src="./itemsIcons/wonderOfTheSeas.png">
+                <div class="itemName">Liner</div>
+                <div class="itemPrice">$1b</div>
+                <button class="buttonBuy" id="linerButtonBuy">buy</button>
+            </div>
+           
+        </div>
+         <div id="receiptBlock">
+                <div class="yourReceipt">Your receipt</div>
+                <div class="purchasedItem" id="cookiePurchased">
+                    <div class="spreeItemName">Cookie</div>
+                    <div class="spreeItemAmount" id="spreeCookieAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeCookieCost">1$</div>
+                </div>
+                <div class="purchasedItem" id="feastablesPurchased">
+                    <div class="spreeItemName">Feastables</div>
+                    <div class="spreeItemAmount" id="spreeFeastablesAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeFeastablesCost">3$</div>
+                </div>
+                <div class="purchasedItem" id="jackLinksPurchased">
+                    <div class="spreeItemName">Jack Link's</div>
+                    <div class="spreeItemAmount" id="spreeJackLinksAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeJackLinksCost">20$</div>
+                </div>
+                <div class="purchasedItem" id="pizzaPurchased">
+                    <div class="spreeItemName">Pizza</div>
+                    <div class="spreeItemAmount" id="spreePizzaAmount">x1</div>
+                    <div class="spreeItemCost" id="spreePizzaCost">10$</div>
+                </div>
+                <div class="purchasedItem" id="funkoPopPurchased">
+                    <div class="spreeItemName">Funko Pop</div>
+                    <div class="spreeItemAmount" id="spreeFunkoPopAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeFunkoPopCost">15$</div>
+                </div>
+                <div class="purchasedItem" id="tshirtPurchased">
+                    <div class="spreeItemName">T-Shirt</div>
+                    <div class="spreeItemAmount" id="spreeTshirtAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeTshirtCost">25$</div>
+                </div>
+                <div class="purchasedItem" id="nokiaPurchased">
+                    <div class="spreeItemName">Nokia 3310</div>
+                    <div class="spreeItemAmount" id="spreeNokiaAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeNokiaCost">35$</div>
+                </div>
+                <div class="purchasedItem" id="robuxPurchased">
+                    <div class="spreeItemName">Robux 4500</div>
+                    <div class="spreeItemAmount" id="spreeRobuxAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeRobuxCost">50$</div>
+                </div>
+                <div class="purchasedItem" id="gtaPurchased">
+                    <div class="spreeItemName">GTA VI</div>
+                    <div class="spreeItemAmount" id="spreeGtaAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeGtaCost">80$</div>
+                </div>
+                <div class="purchasedItem" id="nikePurchased">
+                    <div class="spreeItemName">Nike Air Force</div>
+                    <div class="spreeItemAmount" id="spreeNikeAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeNikeCost">115$</div>
+                </div>
+                <div class="purchasedItem" id="xboxPurchased">
+                    <div class="spreeItemName">Xbox Elite controller</div>
+                    <div class="spreeItemAmount" id="spreeXboxAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeXboxCost">150$</div>
+                </div>
+                <div class="purchasedItem" id="headphonesPurchased">
+                    <div class="spreeItemName">Headphones</div>
+                    <div class="spreeItemAmount" id="spreeHeadphonesAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeHeadphonesCost">230$</div>
+                </div>
+                <div class="purchasedItem" id="champagnePurchased">
+                    <div class="spreeItemName">Premium Champagne</div>
+                    <div class="spreeItemAmount" id="spreeChampagneAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeChampagneCost">400$</div>
+                </div>
+                <div class="purchasedItem" id="bikePurchased">
+                    <div class="spreeItemName">Bicycle</div>
+                    <div class="spreeItemAmount" id="spreeBikeAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeBikeCost">600$</div>
+                </div>
+                <div class="purchasedItem" id="zhiguliPurchased">
+                    <div class="spreeItemName">VAZ-2101 Zhiguli</div>
+                    <div class="spreeItemAmount" id="spreeZhiguliAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeZhiguliCost">700$</div>
+                </div>
+                <div class="purchasedItem" id="puppyPurchased">
+                    <div class="spreeItemName">Puppy</div>
+                    <div class="spreeItemAmount" id="spreePuppyAmount">x1</div>
+                    <div class="spreeItemCost" id="spreePuppyCost">800$</div>
+                </div>
+                <div class="purchasedItem" id="balenciagaPurchased">
+                    <div class="spreeItemName">Balenciaga sneakers</div>
+                    <div class="spreeItemAmount" id="spreeBalenciagaAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeBalenciagaCost">1000$</div>
+                </div>
+                <div class="purchasedItem" id="pcPurchased">
+                    <div class="spreeItemName">Gaming Setup</div>
+                    <div class="spreeItemAmount" id="spreePcAmount">x1</div>
+                    <div class="spreeItemCost" id="spreePcCost">2000$</div>
+                </div>
+                <div class="purchasedItem" id="iphone18Purchased">
+                    <div class="spreeItemName">iPhone 18 pro max 2TB</div>
+                    <div class="spreeItemAmount" id="spreeIphone18Amount">x1</div>
+                    <div class="spreeItemCost" id="spreeIphone18Cost">2500$</div>
+                </div>
+                <div class="purchasedItem" id="cowPurchased">
+                    <div class="spreeItemName">Cow</div>
+                    <div class="spreeItemAmount" id="spreeCowAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeCowCost">3000$</div>
+                </div>
+                <div class="purchasedItem" id="iphoneDuoPurchased">
+                    <div class="spreeItemName">iPhone Duo 2TB</div>
+                    <div class="spreeItemAmount" id="spreeIphoneDuoAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeIphoneDuoCost">3200$</div>
+                </div>
+                <div class="purchasedItem" id="bagPurchased">
+                    <div class="spreeItemName">Designer bag</div>
+                    <div class="spreeItemAmount" id="spreeBagAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeBagCost">4000$</div>
+                </div>
+                <div class="purchasedItem" id="golfCartPurchased">
+                    <div class="spreeItemName">Golf cart</div>
+                    <div class="spreeItemAmount" id="spreeGolfCartAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeGolfCartCost">10 000$</div>
+                </div>
+                <div class="purchasedItem" id="goldPurchased">
+                    <div class="spreeItemName">100 grams of gold</div>
+                    <div class="spreeItemAmount" id="spreeGoldAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeGoldCost">12 000$</div>
+                </div>
+                <div class="purchasedItem" id="jetSkiPurchased">
+                    <div class="spreeItemName">Jet ski</div>
+                    <div class="spreeItemAmount" id="spreeJetSkiAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeJetSkiCost">18 000$</div>
+                </div>
+                <div class="purchasedItem" id="rolexPurchased">
+                    <div class="spreeItemName">Rolex</div>
+                    <div class="spreeItemAmount" id="spreeRolexAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeRolexCost">20 000$</div>
+                </div>
+                <div class="purchasedItem" id="dessertWithDiamondPurchased">
+                    <div class="spreeItemName">Dessert with diamond</div>
+                    <div class="spreeItemAmount" id="spreeDessertWithDiamondAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeDessertWithDiamondCost">35 000$</div>
+                </div>
+                <div class="purchasedItem" id="truckPurchased">
+                    <div class="spreeItemName">Ford f-150</div>
+                    <div class="spreeItemAmount" id="spreeTruckAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeTruckCost">40 000$</div>
+                </div>
+                <div class="purchasedItem" id="cybertruckPurchased">
+                    <div class="spreeItemName">Cybertruck</div>
+                    <div class="spreeItemAmount" id="spreeCybertruckAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeCybertruckCost">150 000$</div>
+                </div>
+                <div class="purchasedItem" id="porshePurchased">
+                    <div class="spreeItemName">Porshe 911</div>
+                    <div class="spreeItemAmount" id="spreePorsheAmount">x1</div>
+                    <div class="spreeItemCost" id="spreePorsheCost">200 000$</div>
+                </div>
+                 <div class="purchasedItem" id="islandPurchased">
+                    <div class="spreeItemName">Uninhabited island</div>
+                    <div class="spreeItemAmount" id="spreeIslandAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeIslandCost">250 000$</div>
+                </div>
+                <div class="purchasedItem" id="flycarPurchased">
+                    <div class="spreeItemName">Fly car</div>
+                    <div class="spreeItemAmount" id="spreeFlycarAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeFlycarCost">350 000$</div>
+                </div>
+                <div class="purchasedItem" id="housePurchased">
+                    <div class="spreeItemName">Single family house</div>
+                    <div class="spreeItemAmount" id="spreeHouseAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeHouseCost">400 000$</div>
+                </div>
+                <div class="purchasedItem" id="privateJetPurchased">
+                    <div class="spreeItemName">Private jet</div>
+                    <div class="spreeItemAmount" id="spreePrivateJetAmount">x1</div>
+                    <div class="spreeItemCost" id="spreePrivateJetCost">$4,5m</div>
+                </div>
+                <div class="purchasedItem" id="artPurchased">
+                    <div class="spreeItemName">Art-object</div>
+                    <div class="spreeItemAmount" id="spreeArtAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeArtCost">$6,2m</div>
+                </div>
+                <div class="purchasedItem" id="footballClubPurchased">
+                    <div class="spreeItemName">Football CLub</div>
+                    <div class="spreeItemAmount" id="spreeFootballClubAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeFootballClubCost">$10m</div>
+                </div>
+                <div class="purchasedItem" id="ronaldoPurchased">
+                    <div class="spreeItemName">Sign Critsiano Ronaldo</div>
+                    <div class="spreeItemAmount" id="spreeRonaldoAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeRonaldoCost">$11m</div>
+                </div>
+                <div class="purchasedItem" id="helicopterPurchased">
+                    <div class="spreeItemName">Helicopter</div>
+                    <div class="spreeItemAmount" id="spreeHelicopterAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeHelicopterCost">$15m</div>
+                </div>
+                <div class="purchasedItem" id="yachtPurchased">
+                    <div class="spreeItemName">Superyacht</div>
+                    <div class="spreeItemAmount" id="spreeYachtAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeYachtCost">$20m</div>
+                </div>
+                <div class="purchasedItem" id="penthousePurchased">
+                    <div class="spreeItemName">Penthouse</div>
+                    <div class="spreeItemAmount" id="spreePenthouseAmount">x1</div>
+                    <div class="spreeItemCost" id="spreePenthouseCost">$30m</div>
+                </div>
+                <div class="purchasedItem" id="spacexPurchased">
+                    <div class="spreeItemName">SpaceX Starship</div>
+                    <div class="spreeItemAmount" id="spreeSpacexAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeSpacexCost">$100m</div>
+                </div>
+                <div class="purchasedItem" id="makeMoviePurchased">
+                    <div class="spreeItemName">Make a movie</div>
+                    <div class="spreeItemAmount" id="spreeMakeMovieAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeMakeMovieCost">$200m</div>
+                </div>
+                <div class="purchasedItem" id="boeingPurchased">
+                    <div class="spreeItemName">Boeing 777X/BBJ</div>
+                    <div class="spreeItemAmount" id="spreeBoeingAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeBoeingCost">$440m</div>
+                </div>
+                <div class="purchasedItem" id="masterpiecePurchased">
+                    <div class="spreeItemName">Masterpiece</div>
+                    <div class="spreeItemAmount" id="spreeMasterpieceAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeMasterpieceCost">$450m</div>
+                </div>
+                <div class="purchasedItem" id="linerPurchased">
+                    <div class="spreeItemName">Liner</div>
+                    <div class="spreeItemAmount" id="spreeLinerAmount">x1</div>
+                    <div class="spreeItemCost" id="spreeLinerCost">$1b</div>
+                </div>
+                <div class="spreeTotal">
+                    <div>Total</div>
+                    <div class="spreeTotalMoney">0$</div>
+                </div>
+            </div>
+    </main>
+    <footer>lol</footer>
+    <script src="script.js"></script>
+</body>
+</html>
